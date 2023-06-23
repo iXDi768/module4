@@ -1,0 +1,65 @@
+ссылка на сайт:    file:///C:/games/pycharm/PROGRAMMIROVANIE/module%204/prog2.html
+
+ссылка на картинку: https://unsplash.com/photos/tree-on-body-of-water-near-mountains-KonWFWUaAuk
+
+код: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"
+    <meta charset="UTF-8">
+    <title>Доска обЪявлений</title>
+</head>
+<body>
+    <h1>Заголовок 1 уровня</h1>
+    <h2>Заголовок 2 уровня</h2>
+    <h3>Заголовок 3 уровня</h3>
+    <h4>Заголовок 4 уровня</h4>
+    <h5>Заголовок 5 уровня</h5>
+    <h6>Заголовок 6 уровня</h6>
+
+<img src="C:\Users\user\Downloads\landscape.jpg" height=”125px” width="125px">
+
+
+<p class="paragraph-1">
+<p>Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit. Aliquam consectetur
+    eveniet iure mollitia numquam odio
+    perferendis vel. Architecto assumenda
+    doloribus et expedita magnam provident,
+    saepe sed suscipit ullam unde vero.
+</p>
+
+<p class="paragraph-2">
+<p>
+    <b>Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit. Aliquam consectetur
+    eveniet iure mollitia numquam odio
+    perferendis vel. Architecto assumenda
+    doloribus et expedita magnam provident,
+    saepe sed suscipit ullam unde vero.</b>
+</p>
+<p class="paragraph-3">
+<p>
+    <i>Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit. Aliquam consectetur
+    eveniet iure mollitia numquam odio
+    perferendis vel. Architecto assumenda
+    doloribus et expedita magnam provident,
+        saepe sed suscipit ullam unde vero.</i>
+</p>
+<ul>
+    <li>1 пункт</li>
+    <li>2 пункт</li>
+    <li>3 пункт</li>
+</ul>
+
+<ol>
+    <li>1 пункт</li>
+    <li>2 пункт</li>
+    <li>3 пункт</li>
+</ol>
+
+</body>
+</html>
