@@ -12,7 +12,7 @@ class Advertisement(models.Model):
     auction = models.BooleanField('торг', help_text='Отметьте, если торг уместен')
     created_at = models.DateTimeField(auto_now_add= True)
     updated_at = models.DateTimeField(auto_now = True)
-    image = models.ImageField('изображение')
+    image = models.ImageField('изображение', upload_to='advertisements/')
 
 
     class Meta:
@@ -36,5 +36,15 @@ class Advertisement(models.Model):
         if self.updated_at.date() == timezone.now().date():
             updated_time = self.updated_at.time().strftime('%H:%M:%S')
             return format_html('<span style="color: green; font-weight: bold;">Обновлено сегодня в {}', updated_time)
+
+    @admin.display(description='изображение')
+    def image_display(self):
+        from django.utils.html import format_html
+        if self.image:
+            return format_html(
+                '<img src="{}" style="width: 45px; height:45px;">', self.image.url
+            )
+        else:
+            return 'No Image'
 
 
